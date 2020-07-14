@@ -1,9 +1,26 @@
 body {
-    background-color: fff;
+    background: url("https://www.nortonrosefulbright.com/-/media/images/nrf/thought-leadership/us/us-state-of-the-union-covid-19-now.jpg?la=en&revision=e4467f9a-da2f-45b0-9fe9-cc206009341d&hash=88DF2EECF754676862F4472E324759A30119BD69") no-repeat center;
+
+    background-size:100%;
+
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.image {
+    width :370px;
+    margin-top: 50px;
+}
+
+@media(max-width:770px){
+    .container{
+        margin:0 10%
+    }
+    .image{
+        width: 100%;
+    }
 }
